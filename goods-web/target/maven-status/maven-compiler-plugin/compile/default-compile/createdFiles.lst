@@ -1,0 +1,11 @@
+com\goods\controller\business\CategoriesController.class
+com\goods\controller\system\RoleController.class
+com\goods\config\MyMebMvcConfigurer.class
+com\goods\YiQingGoodsApplication.class
+com\goods\controller\system\MenuController.class
+com\goods\controller\system\LogController.class
+com\goods\controller\system\UploadController.class
+com\goods\controller\system\LoginLogController.class
+com\goods\controller\system\DepartmentController.class
+com\goods\config\SwaggerConfig.class
+com\goods\controller\system\UserController.class
