@@ -34,7 +34,7 @@ mybatis:
   configuration:
     map-underscore-to-camel-case: true
 minio:
-  endpointUrl: http://192.168.200.128:9000
+  endpointUrl: http://192.168.137.118:9000
   accessKey: admin
   secreKey: admin123456
   bucketName: goods

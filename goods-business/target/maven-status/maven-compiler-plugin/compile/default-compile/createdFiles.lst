@@ -1,6 +1,12 @@
 com\goods\business\service\imp\CategoriesServiceImpl.class
+com\goods\business\mapper\SupplierMapper.class
 com\goods\business\service\TestService.class
 com\goods\business\service\CategoriesService.class
+com\goods\business\service\ListService.class
 com\goods\business\converter\ProductCategoryConverter.class
 com\goods\business\service\imp\TestServiceImpl.class
+com\goods\business\service\SupplierService.class
+com\goods\business\service\imp\SupplierServiceImpl.class
+com\goods\business\mapper\ListMapper.class
 com\goods\business\mapper\CategoryMapper.class
+com\goods\business\service\imp\ListServiceImpl.class

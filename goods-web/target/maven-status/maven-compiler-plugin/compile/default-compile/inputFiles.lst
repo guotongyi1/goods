@@ -1,11 +1,13 @@
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\business\CategoriesController.java
-F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\LoginLogController.java
-F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\UploadController.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\DepartmentController.java
-F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\MenuController.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\config\MyMebMvcConfigurer.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\config\SwaggerConfig.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\RoleController.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\UserController.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\YiQingGoodsApplication.java
+F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\LoginLogController.java
+F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\UploadController.java
+F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\MenuController.java
+F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\business\SupplierController.java
 F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\system\LogController.java
+F:\dianshang\code\goods\goods-web\src\main\java\com\goods\controller\business\ListController.java

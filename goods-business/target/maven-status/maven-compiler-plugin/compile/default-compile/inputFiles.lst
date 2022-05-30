@@ -1,6 +1,12 @@
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\converter\ProductCategoryConverter.java
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\imp\TestServiceImpl.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\mapper\SupplierMapper.java
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\mapper\CategoryMapper.java
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\CategoriesService.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\ListService.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\imp\ListServiceImpl.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\mapper\ListMapper.java
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\imp\CategoriesServiceImpl.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\SupplierService.java
 F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\TestService.java
+F:\dianshang\code\goods\goods-business\src\main\java\com\goods\business\service\imp\SupplierServiceImpl.java

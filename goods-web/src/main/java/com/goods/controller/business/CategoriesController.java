@@ -1,19 +1,24 @@
 package com.goods.controller.business;
 
 import com.goods.business.service.CategoriesService;
+import com.goods.common.model.business.ProductCategory;
 import com.goods.common.response.ResponseBean;
 import com.goods.common.vo.business.ProductCategoryTreeNodeVO;
+import com.goods.common.vo.business.ProductCategoryVO;
 import com.goods.common.vo.system.PageVO;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ *
+ * @author GuoTongYi
+ * @createDate 2022/5/30 13:54
+ */
 @Api(tags = "物资类别接口")
 @RequestMapping("/business/productCategory")
 @RestController
@@ -35,6 +40,29 @@ public class CategoriesController {
     public ResponseBean<List<ProductCategoryTreeNodeVO>>  getParentCategoryTree(){
         List<ProductCategoryTreeNodeVO> productCategoryTreeNodeVOList = categoriesService.getParentCategoryTree();
         return  ResponseBean.success(productCategoryTreeNodeVOList);
+    }
+    /**
+     *
+     * @param
+     * @return
+     */
+    @PostMapping("/add")
+    public  ResponseBean  add(@RequestBody  ProductCategory productCategory){
+       categoriesService.addCategory(productCategory);
+       return ResponseBean.success();
+    }
+
+    @GetMapping("/edit/{id}")
+    public ResponseBean findCategoryById(@PathVariable Long id){
+        ProductCategoryVO productCategoryVO = categoriesService.findCategoryById(id);
+
+        return ResponseBean.success();
+    }
+
+    @GetMapping("/update/{id}")
+    public ResponseBean updateCategoryById(@PathVariable Long id,@RequestBody ProductCategory productCategory){
+        categoriesService.updateCategoryById(id,productCategory);
+        return ResponseBean.success();
     }
  }
 
